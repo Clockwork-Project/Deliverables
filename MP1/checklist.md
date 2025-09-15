@@ -37,7 +37,10 @@ Team 26 in the year 2022: https://ece.uwaterloo.ca/~se_capstone/se2022-abstract-
 Time limit for internet/web access. We might have something similar, 
 
 5. 
-- 
+- Sat together and brainstormed ideas.
+- Reflect on our own experiences as students/co-op students. "What are the things that we need that would help improve our daily workflow?"
+- Go through past Capstone Projects to get inspirations. We noticed there were not many dedicated intelligent personal productivity assistants that combine task capture, prioritization, and scheduling.
+- Search online for examples/external resources.
 - Used ChatGPT to elaborate on ideas
 
 6.
