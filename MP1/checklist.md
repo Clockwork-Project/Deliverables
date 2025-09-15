@@ -15,6 +15,29 @@ Clockwork addresses this by combining **task capture, smart prioritization, and 
 - **Scalability for the Future**: Initial prototype focuses on individuals; future iterations may extend to small teams with shared tasks and collaborative planning.
 
 
+## **How We Came Up With This Idea**
+
+1. **Team Brainstorming**  
+   - Sat together as a group and generated potential ideas.  
+
+2. **Personal Reflection**  
+   - Drew on our own experiences balancing coursework, co-op, and personal responsibilities.  
+   - Identified pain points like missed deadlines, scattered reminders, and lack of structured focus time.
+
+3. **Reviewing Past Capstone Projects**  
+   - Examined the abstract booklist of past SE Capstone projects.  
+   - Found that while there were scheduling or reminder apps, there were **few (if any) intelligent productivity assistants** that combine **task capture, prioritization, and automated scheduling**.  
+   - This showed an opportunity for originality and practical impact.
+
+4. **External Research**  
+   - Looked at online articles, studies, and surveys highlighting **time-management challenges** faced by students and full-time workers.  
+   - Confirmed through credible resources (APA studies, Gallup workplace surveys) that managing time and workload is a widespread problem.
+   - https://pmc.ncbi.nlm.nih.gov/articles/PMC10297372/
+   - https://news.gallup.com/poll/690881/work-schedules-fail-millions-employees.aspx?utm_source=chatgpt.com
+
+5. **AI-Assisted Exploration**  
+   - Used **ChatGPT** to expand and refine our brainstorming outcomes.  
+   - Explored variations of task managers, focus tools, and scheduling engines before converging on the **Clockwork productivity assistant** idea.
 
 1. Done
 
