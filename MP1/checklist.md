@@ -38,6 +38,68 @@ Clockwork addresses this by combining **task capture, smart prioritization, and 
 5. **AI-Assisted Exploration**  
    - Used **ChatGPT** to expand and refine our brainstorming outcomes.  
    - Explored variations of task managers, focus tools, and scheduling engines before converging on the **Clockwork productivity assistant** idea.
+  
+## **Team Organization**
+
+- **Current Meeting Schedule**  
+  - Monday @ 4:00 PM  
+  - Thursday @ 4:30 PM  
+
+- **Communication Channel**  
+  - Primary: **Discord** (for day-to-day coordination and quick updates)  
+
+- **Task Management**  
+  - Using **GitHub Projects (Kanban board)** to track tasks and progress  
+  - Link: [Clockwork Project Board](https://github.com/orgs/Clockwork-Project/projects/1)
+
+## **Success Criteria**
+
+1. **Functionality**  
+   - End-to-end flow works: **capture → prioritize → schedule → focus → track**  
+   - Reliable **Google Calendar integration** (read/write)
+
+2. **User Adoption**  
+   - At least **500 external users** test the prototype  
+   - Positive feedback that scheduling feels **useful and accurate**  
+   - **Metrics:**  
+     - Percentage of tasks completed on time after using Clockwork  
+     - Improvement in timely task completion compared to before usage
+
+3. **Usability**  
+   - Easy to get started: first task scheduled within **3 minutes**  
+   - Users rate usability/trust positively in surveys (**≥ 4/5 average**)
+
+---
+
+## **Risks**
+
+### Technical
+- **Calendar API limits or token failures**  
+  - *Impact:* Could block scheduling functionality  
+  - *Mitigation:* Use minimal scopes, batch requests, test early with seeded accounts  
+
+- **Scheduling conflicts**  
+  - *Impact:* Risk of overwriting user’s personal events  
+  - *Mitigation:* Only modify **Clockwork-tagged events**, always provide **undo option**
+
+### Project Management
+- **Scope creep**  
+  - *Impact:* Trying to do too much (e.g., Outlook integration) may prevent MVP completion  
+  - *Mitigation:* Focus only on **Google Calendar MVP** for SE390  
+
+- **Team coordination issues**  
+  - *Impact:* Misaligned tasks or responsibilities could cause sprint delays  
+  - *Mitigation:* Weekly scrums, GitHub Projects board, and **clear task assignments**
+
+### User / Strategic
+- **Low adoption**  
+  - *Impact:* Users may prefer established apps (e.g., Todoist, Notion)  
+  - *Mitigation:* Keep prototype **lightweight, fast**, and highlight **unique intelligent scheduling**
+
+- **Privacy concerns**  
+  - *Impact:* Users may hesitate to grant calendar access  
+  - *Mitigation:* Be transparent that Clockwork only edits its own events and use **encrypted tokens** for security
+
 
 1. Done
 
