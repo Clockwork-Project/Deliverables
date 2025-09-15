@@ -72,7 +72,7 @@ Clockwork addresses this by combining **task capture, smart prioritization, and 
 ---
 
 ## **Risks**
-
+https://docs.google.com/spreadsheets/d/1SgYo7QBFXjS-gqshAIte5Evx2Y1gjnLvZAcL1flzNGQ/edit?gid=904221976#gid=904221976
 ### Technical
 - **Calendar API limits or token failures**  
   - *Impact:* Could block scheduling functionality  
@@ -180,3 +180,4 @@ Mitigation: Keep prototype lightweight, fast, and highlight unique “intelligen
 
 2) Privacy concerns → Hesitation to share calendar access.
 Mitigation: Be transparent: Clockwork only edits its own events, encrypt tokens.
+
