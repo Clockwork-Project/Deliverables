@@ -1,4 +1,24 @@
+# Clockwork — Project
+
+## **Project Vision**
+
+Clockwork is an **intelligent personal productivity assistant** designed to help students and young professionals manage their workload effectively.  
+Many users rely on scattered tools (sticky notes, Discord reminders, or basic calendar apps), leading to missed deadlines and reduced productivity.  
+Clockwork addresses this by combining **task capture, smart prioritization, and automatic scheduling** into a single lightweight platform.
+
+### **Key Vision Elements**
+- **Unified Workspace**: One place to capture, view, and manage tasks from multiple sources (typed or voice input).
+- **Intelligent Scheduling**: Automatically suggests focus blocks by analyzing user availability, task urgency, and deadlines.
+- **Calendar Integration**: Syncs seamlessly with Google Calendar (read/write), ensuring schedules remain consistent across tools.
+- **Focus & Productivity Support**: Provides focus modes (timers, progress tracking) to encourage deep work and build study/working habits.
+- **Trust & Transparency**: Clockwork explains *why* it scheduled a task in a given slot and only modifies events it creates, avoiding conflicts with personal calendars.
+- **Scalability for the Future**: Initial prototype focuses on individuals; future iterations may extend to small teams with shared tasks and collaborative planning.
+
+
+
 1. Done
+
+
 
 2. 
 Current meeting schedule:
@@ -35,7 +55,7 @@ Success Criteria:
   
   2) User Adoption
   
-  At least 10 external users (classmates/peers) test the prototype.
+  At least 100 external users (classmates/peers) test the prototype.
   
   Positive feedback that scheduling feels useful and accurate.
   
