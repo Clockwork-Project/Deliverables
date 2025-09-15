@@ -33,9 +33,11 @@ Tasklist: Github projects (kanban) board. https://github.com/orgs/Clockwork-Proj
 ?
 
 4. 
-?
+Team 26 in the year 2022: https://ece.uwaterloo.ca/~se_capstone/se2022-abstract-booklet.pdf
 
-5. 
+Time limit for internet/web access. We might have something similar, 
+
+6. 
 - 
 - Used ChatGPT to elaborate ideas
 
@@ -55,9 +57,12 @@ Success Criteria:
   
   2) User Adoption
   
-  At least 100 external users (classmates/peers) test the prototype.
+  At least 500 external users test the prototype.
   
   Positive feedback that scheduling feels useful and accurate.
+
+  Metrics: 
+  How many people finish their tasks on time, and what percentage of their tasks get finished on time (after using our app).
   
   3) Usability
   
