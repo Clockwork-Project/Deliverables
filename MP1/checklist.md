@@ -20,8 +20,7 @@ Clockwork addresses this by combining **task capture, smart prioritization, and 
 
 
 
-2. 
-Current meeting schedule:
+2. Current meeting schedule:
 Monday 4:00PM
 Thursday 4:30PM
 
@@ -37,9 +36,9 @@ Team 26 in the year 2022: https://ece.uwaterloo.ca/~se_capstone/se2022-abstract-
 
 Time limit for internet/web access. We might have something similar, 
 
-6. 
+5. 
 - 
-- Used ChatGPT to elaborate ideas
+- Used ChatGPT to elaborate on ideas
 
 6.
 Done
