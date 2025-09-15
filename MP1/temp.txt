@@ -24,3 +24,47 @@ Done
 
 7. 
 What are the success criteria? What are potential risks? 
+
+Success Criteria:
+
+  1) Functionality
+  
+  End-to-end flow works: capture → prioritize → schedule → focus → track.
+  
+  Reliable Google Calendar integration (read/write).
+  
+  2) User Adoption
+  
+  At least 10 external users (classmates/peers) test the prototype.
+  
+  Positive feedback that scheduling feels useful and accurate.
+  
+  3) Usability
+  
+  Easy to get started (first task scheduled within 3 minutes).
+  
+  Users rate usability/trust positively in quick surveys (≥ 4/5).
+ 
+Risks Technical
+
+1) Calendar API limits or token failures → Could block scheduling.
+Mitigation: Use minimal scopes, test with seeded accounts early.
+
+2) Scheduling conflicts → Risk of overwriting user’s events.
+Mitigation: Only modify Clockwork-tagged events, provide undo.
+
+Project Management
+
+1) Scope creep → Trying to do too much (e.g., Outlook integration) and failing core features.
+Mitigation: Focus on Google Calendar MVP only for SE390.
+
+2) Team coordination issues → Delays in sprints.
+Mitigation: Weekly scrums, clear task assignments.
+
+User/Strategic
+
+1) Low adoption → Users may prefer existing apps.
+Mitigation: Keep prototype lightweight, fast, and highlight unique “intelligent scheduling” feature.
+
+2) Privacy concerns → Hesitation to share calendar access.
+Mitigation: Be transparent: Clockwork only edits its own events, encrypt tokens.
