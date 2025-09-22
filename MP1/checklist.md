@@ -1,44 +1,46 @@
-# Clockwork — Project
+# Trego — Project
 
 ## **Project Vision**
 
-Clockwork is an **intelligent personal productivity assistant** designed to help students and young professionals manage their workload effectively.  
-Many users rely on scattered tools (sticky notes, Discord reminders, or basic calendar apps), leading to missed deadlines and reduced productivity.  
-Clockwork addresses this by combining **task capture, smart prioritization, and automatic scheduling** into a single lightweight platform.
+Trego is a **location-based sports connection platform** designed to help students, recreational players, and community clubs reliably find teammates, join teams, and access tryouts.  
+Today, many players rely on fragmented tools such as group chats, Instagram posts, or posters, which often result in empty courts, unfilled rosters, or last-minute cancellations.  
 
+Trego solves this by creating a **dedicated hub for sports connections**, where:  
+- Players build profiles highlighting their sports, skill levels, and availability.  
+- Teams and clubs can schedule tryouts, recruit new members, and request substitutes.  
+- Coaches can advertise services, book training sessions, and connect directly with players.  
 ### **Key Vision Elements**
-- **Unified Workspace**: One place to capture, view, and manage tasks from multiple sources (typed or voice input).
-- **Intelligent Scheduling**: Automatically suggests focus blocks by analyzing user availability, task urgency, and deadlines.
-- **Calendar Integration**: Syncs seamlessly with Google Calendar (read/write), ensuring schedules remain consistent across tools.
-- **Focus & Productivity Support**: Provides focus modes (timers, progress tracking) to encourage deep work and build study/working habits.
-- **Trust & Transparency**: Clockwork explains *why* it scheduled a task in a given slot and only modifies events it creates, avoiding conflicts with personal calendars.
-- **Scalability for the Future**: Initial prototype focuses on individuals; future iterations may extend to small teams with shared tasks and collaborative planning.
+- **Reliable Matchmaking**: Connects players with teams, games, and tryouts based on intent, skill, and availability.  
+- **Tryout Scheduling**: Enables teams to run structured, open tryouts and evaluate players easily.  
+- **Substitution Support**: Lets teams find last-minute fill-ins to prevent forfeits or empty games.  
+- **Coach Integration**: Coaches can promote services, advertise training events, and manage bookings.  
+- **Community Engagement**: Fosters a trustworthy sports ecosystem through reputation scores and feedback.  
+- **Scalability for the Future**: Starts with university and community sports; future iterations may expand to leagues, tournaments, and venue integration.  
 
+---
 
 ## **How We Came Up With This Idea**
 
 1. **Team Brainstorming**  
-   - Sat together as a group and generated potential ideas.  
+   - Sat together and explored unmet needs in campus and community life.  
 
 2. **Personal Reflection**  
-   - Drew on our own experiences balancing coursework, co-op, and personal responsibilities.  
-   - Identified pain points like missed deadlines, scattered reminders, and lack of structured focus time.
+   - Drew on our own experiences where finding reliable teammates or filling empty courts was a constant struggle.  
 
 3. **Reviewing Past Capstone Projects**  
-   - Examined the abstract booklist of past SE Capstone projects.  
-   - Found that while there were scheduling or reminder apps, there were **few (if any) intelligent productivity assistants** that combine **task capture, prioritization, and automated scheduling**.  
-   - This showed an opportunity for originality and practical impact.
+   - Checked the SE Capstone abstract booklets for inspiration.  
+   - Found no dedicated projects addressing **sports matchmaking, tryouts, and recruitment** — highlighting a gap.  
 
 4. **External Research**  
-   - Looked at online articles, studies, and surveys highlighting **time-management challenges** faced by students and full-time workers.  
-   - Confirmed through credible resources (APA studies, Gallup workplace surveys) that managing time and workload is a widespread problem.
-   - https://pmc.ncbi.nlm.nih.gov/articles/PMC10297372/
-   - https://news.gallup.com/poll/690881/work-schedules-fail-millions-employees.aspx?utm_source=chatgpt.com
+   - Observed that many students and community members cite **difficulty in organizing games and finding reliable players** as a top barrier to staying active.  
+   - Looked at apps in other regions (China super-apps, niche sports apps) and noted a lack of unified, intent-driven solutions.  
 
 5. **AI-Assisted Exploration**  
-   - Used **ChatGPT** to expand and refine our brainstorming outcomes.  
-   - Explored variations of task managers, focus tools, and scheduling engines before converging on the **Clockwork productivity assistant** idea.
-  
+   - Used **ChatGPT** to refine and expand on early concepts.  
+   - Iterated toward the idea of a **sports-specific, reliability-focused connection app** instead of a generic social network.  
+
+---
+
 ## **Team Organization**
 
 - **Current Meeting Schedule**  
@@ -50,134 +52,55 @@ Clockwork addresses this by combining **task capture, smart prioritization, and 
 
 - **Task Management**  
   - Using **GitHub Projects (Kanban board)** to track tasks and progress  
-  - Link: [Clockwork Project Board](https://github.com/orgs/Clockwork-Project/projects/1)
+  - Link: [Trego Project Board](https://github.com/orgs/Clockwork-Project/projects/1)  
+
+---
 
 ## **Success Criteria**
 
 1. **Functionality**  
-   - End-to-end flow works: **capture → prioritize → schedule → focus → track**  
-   - Reliable **Google Calendar integration** (read/write)
+   - End-to-end flow works: **profile → find game/team → join or tryout → confirm attendance**  
+   - Teams can reliably schedule **tryouts, recruit players, and request substitutes**  
 
 2. **User Adoption**  
    - At least **500 external users** test the prototype  
-   - Positive feedback that scheduling feels **useful and accurate**  
+   - Positive feedback that matchmaking feels **reliable and useful**  
    - **Metrics:**  
-     - Percentage of tasks completed on time after using Clockwork  
-     - Improvement in timely task completion compared to before usage
+     - Number of games successfully filled via Trego  
+     - Percentage of users who find and join a team/game within first 2 weeks  
 
 3. **Usability**  
-   - Easy to get started: first task scheduled within **3 minutes**  
-   - Users rate usability/trust positively in surveys (**≥ 4/5 average**)
+   - Easy onboarding: first game/join request within **3 minutes**  
+   - Players and teams rate usability positively in surveys (**≥ 4/5 average**)  
 
 ---
 
 ## **Risks**
-https://docs.google.com/spreadsheets/d/1SgYo7QBFXjS-gqshAIte5Evx2Y1gjnLvZAcL1flzNGQ/edit?gid=904221976#gid=904221976
-### Technical
-- **Calendar API limits or token failures**  
-  - *Impact:* Could block scheduling functionality  
-  - *Mitigation:* Use minimal scopes, batch requests, test early with seeded accounts  
+https://docs.google.com/spreadsheets/d/1SgYo7QBFXjS-gqshAIte5Evx2Y1gjnLvZAcL1flzNGQ/edit?gid=904221976#gid=904221976  
 
-- **Scheduling conflicts**  
-  - *Impact:* Risk of overwriting user’s personal events  
-  - *Mitigation:* Only modify **Clockwork-tagged events**, always provide **undo option**
+### Technical
+- **Location & API constraints**  
+  - *Impact:* Map/geo APIs may limit free usage or fail in certain regions  
+  - *Mitigation:* Use open-source maps (OpenStreetMap) alongside Google Maps; cache data locally  
+
+- **Real-time reliability tracking**  
+  - *Impact:* Missed check-ins may misrepresent attendance  
+  - *Mitigation:* Provide multiple verification methods (QR check-in, captain confirmation)  
 
 ### Project Management
 - **Scope creep**  
-  - *Impact:* Trying to do too much (e.g., Outlook integration) may prevent MVP completion  
-  - *Mitigation:* Focus only on **Google Calendar MVP** for SE390  
+  - *Impact:* Trying to add advanced features (wearable data, tournaments) may delay MVP  
+  - *Mitigation:* Focus first on **profiles, games, tryouts, substitutions**  
 
 - **Team coordination issues**  
-  - *Impact:* Misaligned tasks or responsibilities could cause sprint delays  
-  - *Mitigation:* Weekly scrums, GitHub Projects board, and **clear task assignments**
+  - *Impact:* Misaligned deliverables or task ownership may slow down sprints  
+  - *Mitigation:* Weekly scrums, clear Kanban tracking, defined sprint goals  
 
 ### User / Strategic
 - **Low adoption**  
-  - *Impact:* Users may prefer established apps (e.g., Todoist, Notion)  
-  - *Mitigation:* Keep prototype **lightweight, fast**, and highlight **unique intelligent scheduling**
+  - *Impact:* Players may stick to existing group chats or social media  
+  - *Mitigation:* Emphasize **unique features** like tryout scheduling, substitution support, and reliability scores  
 
-- **Privacy concerns**  
-  - *Impact:* Users may hesitate to grant calendar access  
-  - *Mitigation:* Be transparent that Clockwork only edits its own events and use **encrypted tokens** for security
-
-
-1. Done
-
-
-
-2. Current meeting schedule:
-Monday 4:00PM
-Thursday 4:30PM
-
-Communication channel: Discord
-
-Tasklist: Github projects (kanban) board. https://github.com/orgs/Clockwork-Project/projects/1
-
-3. 
-?
-
-4. 
-Team 26 in the year 2022: https://ece.uwaterloo.ca/~se_capstone/se2022-abstract-booklet.pdf
-
-Time limit for internet/web access. We might have something similar, 
-
-5. 
-- Sat together and brainstormed ideas.
-- Reflect on our own experiences as students/co-op students. "What are the things that we need that would help improve our daily workflow?"
-- Go through past Capstone Projects to get inspirations. We noticed there were not many dedicated intelligent personal productivity assistants that combine task capture, prioritization, and scheduling.
-- Search online for examples/external resources.
-- Used ChatGPT to elaborate on ideas
-
-6.
-Done
-
-7. 
-What are the success criteria? What are potential risks? 
-
-Success Criteria:
-
-  1) Functionality
-  
-  End-to-end flow works: capture → prioritize → schedule → focus → track.
-  
-  Reliable Google Calendar integration (read/write).
-  
-  2) User Adoption
-  
-  At least 500 external users test the prototype.
-  
-  Positive feedback that scheduling feels useful and accurate.
-
-  Metrics: 
-  How many people finish their tasks on time, and what percentage of their tasks get finished on time (after using our app).
-  
-  3) Usability
-  
-  Easy to get started (first task scheduled within 3 minutes).
-  
-  Users rate usability/trust positively in quick surveys (≥ 4/5).
- 
-Risks Technical
-
-1) Calendar API limits or token failures → Could block scheduling.
-Mitigation: Use minimal scopes, test with seeded accounts early.
-
-2) Scheduling conflicts → Risk of overwriting user’s events.
-Mitigation: Only modify Clockwork-tagged events, provide undo.
-
-Project Management
-
-1) Scope creep → Trying to do too much (e.g., Outlook integration) and failing core features.
-Mitigation: Focus on Google Calendar MVP only for SE390.
-
-2) Team coordination issues → Delays in sprints.
-Mitigation: Weekly scrums, clear task assignments.
-
-User/Strategic
-
-1) Low adoption → Users may prefer existing apps.
-Mitigation: Keep prototype lightweight, fast, and highlight unique “intelligent scheduling” feature.
-
-2) Privacy concerns → Hesitation to share calendar access.
-Mitigation: Be transparent: Clockwork only edits its own events, encrypt tokens.
-
+- **Trust and safety concerns**  
+  - *Impact:* Users may hesitate to meet strangers via the app  
+  - *Mitigation:* Add **reputation scores, verification options, and peer feedback**  
