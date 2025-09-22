@@ -8,14 +8,60 @@ Today, many players rely on fragmented tools such as group chats, Instagram post
 Trego solves this by creating a **dedicated hub for sports connections**, where:  
 - Players build profiles highlighting their sports, skill levels, and availability.  
 - Teams and clubs can schedule tryouts, recruit new members, and request substitutes.  
-- Coaches can advertise services, book training sessions, and connect directly with players.  
+- Coaches can advertise services, book training sessions, and connect directly with players.
+- 
 ### **Key Vision Elements**
-- **Reliable Matchmaking**: Connects players with teams, games, and tryouts based on intent, skill, and availability.  
-- **Tryout Scheduling**: Enables teams to run structured, open tryouts and evaluate players easily.  
-- **Substitution Support**: Lets teams find last-minute fill-ins to prevent forfeits or empty games.  
-- **Coach Integration**: Coaches can promote services, advertise training events, and manage bookings.  
-- **Community Engagement**: Fosters a trustworthy sports ecosystem through reputation scores and feedback.  
-- **Scalability for the Future**: Starts with university and community sports; future iterations may expand to leagues, tournaments, and venue integration.  
+
+- **Player Profiles**  
+  - Each user maintains a personal profile with:  
+    - Sports played and self-rated skill levels (beginner → advanced).  
+    - Availability windows (weekly schedule preferences).  
+    - Game history (matches attended, reliability %).  
+  - Profiles are visible to teams, clubs, and coaches for evaluation.  
+
+- **Team & Club Management**  
+  - Teams can create shared profiles with:  
+    - Roster list (current players and positions).  
+    - Open positions and recruitment posts.  
+    - Past performance records (e.g., games played, win/loss).  
+    - Managed by a designated team captain or manager.  
+  - Clubs can host recurring events (e.g., weekly practice or pickup nights).  
+
+- **Reliable Matchmaking**  
+  - Location-based game discovery using maps and filters (sport, skill, distance, time).  
+  - Smart suggestions matching players to games or teams based on profile data.  
+  - Availability matching: app cross-checks schedules to recommend best fit.  
+  - Dynamic updates (notifications when nearby games need players).  
+
+- **Tryout Scheduling**  
+  - Teams create structured tryout events with:  
+    - Date, time, and location.  
+    - Desired player attributes (positions, skill levels, experience).  
+  - Players register and confirm attendance.  
+  - After the tryout:  
+    - Teams evaluate players (Accepted / Rejected / Shortlist).  
+
+- **Substitution Support**  
+  - Teams post last-minute requests for substitutes  
+  - Nearby players receive push notifications based on location and skill fit.  
+  - Substitutes can accept instantly; team gets confirmation.  
+  - Attendance tracked to boost substitute’s reliability score.  
+
+- **Reliability & Reputation System**  
+  - Attendance automatically tracked (via QR code check-in or captain confirmation).  
+  - Reliability Score shown on each profile (% of games attended vs. missed).  
+  - Peer feedback 
+  - High-reliability players prioritized in matchmaking.  
+
+- **Game & Event Management**  
+  - Organizers can create pickup games or tournaments with:  
+    - Location, date/time, sport, skill requirement, and # of players needed.  
+    - Auto-waitlist system when games fill up with private or public game.  
+  - Games sync to player/team calendars with reminders.  
+
+- **Community Engagement**  
+  - Leaderboards (most active players, best attendance, multi-sport athletes).  
+  - Optional “friend system” to follow teammates and join their games.  
 
 ---
 
