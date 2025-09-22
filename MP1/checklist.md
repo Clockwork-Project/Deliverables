@@ -9,7 +9,7 @@ Trego solves this by creating a **dedicated hub for sports connections**, where:
 - Players build profiles highlighting their sports, skill levels, and availability.  
 - Teams and clubs can schedule tryouts, recruit new members, and request substitutes.  
 - Coaches can advertise services, book training sessions, and connect directly with players.
-- 
+  
 ### **Key Vision Elements**
 
 - **Player Profiles**  
