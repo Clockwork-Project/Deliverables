@@ -49,29 +49,7 @@ Player {
 
 ---
 
-### 🤝 **F2. Friends System**
-
-**Purpose:**  
-Build lightweight player connections for trust and discovery.
-
-**Functional Requirements**
-- Send, accept, or decline friend requests  
-- View friend list and mutual friends  
-- Remove friends at any time  
-- Filter game list to show **friends’ games only**
-
-**Rules**
-- Duplicate or cross requests automatically merge into one accepted friendship  
-- Expire unaccepted requests after 30 days  
-- Removing a friend also hides visibility-limited content  
-
-**Acceptance Criteria**
-- Friend status updates in real-time (no full page reload)  
-- Users cannot send requests to the same person twice  
-
----
-
-### ⚽ **F3. Create Game**
+### ⚽ **F2. Create Game**
 
 **Purpose:**  
 Allow players to host new pickup games and recruit participants.
@@ -118,7 +96,7 @@ Game {
 
 ---
 
-### 🏆 **F4. Join Game**
+### 🏆 **F3. Join Game**
 
 **Purpose:**  
 Let players discover and participate in open games.
@@ -141,7 +119,7 @@ Let players discover and participate in open games.
 
 ---
 
-### 🕓 **F5. Attendance (Simplified Reliability System)**
+### 🕓 **F4. Attendance (Simplified Reliability System)**
 
 **Purpose:**  
 Enable game creators to track attendance after each event.
