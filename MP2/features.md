@@ -1,4 +1,4 @@
-## Features list
+# Features list
 
 1. Player profile
 2. User friend list
